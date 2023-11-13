@@ -21,7 +21,8 @@ Hi! I am Kate. I work as a design engineer. From school years I was interested i
    * VS Code
    * Figma
    * Adaptiv design
-   * Dom
+   * DOM
+   * Angular
   
   ***
 ## Code Example
@@ -34,7 +35,6 @@ Hi! I am Kate. I work as a design engineer. From school years I was interested i
     header__burger.classList.toggle("active");
     header__menu.classList.toggle("active");
     body.classList.toggle("block");
-
 })
 ```
 ***

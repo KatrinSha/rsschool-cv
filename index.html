@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="hamburger">
+            <div class="hamburger__line"></div>
+        </div>
+        <div class="wrapper header__wrapper">
+
+            <div class="header__logo-line">
+                <a href="#" class="logo">
+                    <object type="image/svg+xml" data="./img/icons/cv.svg" class="logo-object">
+                        Your browser does not support SVG
+                    </object>
+                </a>
+            </div>
+            <nav class="header__navigation">
+                <ul class="navigation">
+                    <li class="navigation__link"><a href="#Home">Home</a></li>
+                    <li class="navigation__link"><a href="#About">About Me</a></li>
+                    <li class="navigation__link"><a href="#Education">Education</a></li>
+                    <li class="navigation__link"><a href="#Skills">Skills</a></li>
+                    <li class="navigation__link"><a href="#Contacts">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="welcome" id="Home">
+        <div class="welcome__wrapper">
+            <div class="wrapper">
+                <div class="welcome_content">
+                    <h1 class="welcome-title">Hi, I'm Katerina</h1>
+                    <p class="welcome__printed-text">Junior Front-end Developer</p>
+                </div>
+            </div>
+            <a class="welcome__button" href="#About"><span class="ico ico_arrow"></span></a>
+        </div>
+    </section>
+    <section class="about" id="About">
+        <div class="wrapper about__wrapper">
+
+            <p class="about__title">About Me</p>
+            <h2 class="about__title-big">Know Me More</h2>
+            <div class="about__description">
+                <div class="about__desc-container">
+                    <div class="about_desc_title">Hi, I'm <span>Katerina</span></div>
+                    <div class="about_desc_text">I work as a design engineer. From school years I was interested in
+                        IT-sphere, but possibility to start studying appeared recently.My goal is to get maximum
+                        knowledge about front-end
+                        development and to become an in-demand specialist
+                        to realize my potential. I'm a good teamworker and I
+                        like to communicate with different people. I also have
+                        the code reading skills.
+                    </div>
+                </div>
+                <div class="about__photo"><img alt="#" src="./img/background/photo.jpg"></div>
+            </div>
+            <div class="about__info">
+                <div class="about__info-box">
+                    <h3 class="_info-box_title">Name:</h3>
+                    <p class="_info-box_text">Katerina Shchablovskaya</p>
+                </div>
+                <div class="about__info-box">
+                    <h3 class="_info-box_title">Location:</h3>
+                    <p class="_info-box_text">Minsk, Belarus</p>
+                </div>
+                <div class="about__info-box">
+                    <h3 class="_info-box_title">English level:</h3>
+                    <p class="_info-box_text">Intermediate ~</p>
+                </div>
+                <div class="about__info-box">
+                    <h3 class="_info-box_title">Phone:</h3>
+                    <a class="_info-box_text" href="tel:+375297029327">+375297029327</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="education" id="Education">
+        <div class=" education__wrapper">
+            <p class="education__title">Resume</p>
+            <h2 class="education__title-big">My Education and Experience</h2>
+            <div class="education__slider slider">
+                <div class="education__slider-line">
+                    <div class="_slider-box _slider-box_bntu">
+                        <div class="_slider-box_title">Belarusian National Technical University</div>
+                        <div class="_slider-box_text">Faculty of transport communications: engineer - designer</div>
+                        <div class="slider-box_term">Completed in 2011</div>
+                    </div>
+                    <div class="_slider-box _slider-box_academy">
+                        <div class="_slider-box_title">It-Academy</div>
+                        <div class="_slider-box_text"></div>
+                        <div class="slider-box_term">November 2021 - March 2022</div>
+                        <div class="slider-box_info">JavaScript web application development:
+                            functions, arrays, closures, events, event loop, JSON, Web,
+                            API asynchronous function, angular, npm, lifecycle hooks,
+                            components, derectives ,dependency injection, router,
+                            observable rxjs, reactive forms and etc. </div>
+                    </div>
+                    <div class="_slider-box">
+                        <div class="_slider-box_title">Trainee Front-end Developer, IT-Academy</div>
+                        <div class="_slider-box_text"></div>
+                        <div class="slider-box_term">2021 – 2022</div>
+                        <div class="slider-box_info">work on the course project Weather App:
+                            <ul class="slider-box_info-list">
+                                <li class="info-list_item">use of services to make the http get calls which
+                                    returns an observable;</li>
+                                <li class="info-list_item">subscribe to the service by using rxjs subscribe
+                                    method;</li>
+                                <li class="info-list_item">create class that holds common properties which
+                                    can be used in the current weather calculation;</li>
+                                <li class="info-list_item">use routing to navigate between pages</li>
+                                <li class="info-list_item">use angular material for dropdown;</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="_slider-box">
+                        <div class="_slider-box_title">RS School</div>
+                        <div class="_slider-box_text"></div>
+                        <div class="slider-box_term">Present</div>
+                        <div class="slider-box_info">
+                            <ul class="slider-box-info-list">
+                                <li class="info-list_item">adaptive layuot (landing page);
+                                </li>
+                                <li class="info-list_item">memory game in vanilla JavaScript, project Momentum;
+                                </li>
+                                <li class="info-list_item">algorithms and data structures;</li>
+                                <li class="info-list_item">tasks in codewars and etc</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider__button-box">
+                <button class="slider_button-prev slider-button">Prev</button>
+                <button class="slider_button-next slider-button">Next</button>
+            </div>
+        </div>
+    </section>
+    <section class="skills" id="Skills">
+        <div class="wrapper skills__wrapper">
+            <p class="skills__title">Resume</p>
+            <h2 class="skills__title-big">Skills</h2>
+            <div class="skills__cards">
+
+                <div class="skills_container">
+                    <div class="skills__card">
+                        <div class="skills__card-front hard-skill">
+                            <h2 class="skills__card_title">Hard Skills</h2>
+                        </div>
+                        <div class="skills__card-back">
+                            <ul class="skills-list">
+                                <li class="skills-list__item">JavaScript</li>
+                                <li class="skills-list__item">HTML, CSS</li>
+                                <li class="skills-list__item">Angular</li>
+                                <li class="skills-list__item">Typescript</li>
+                                <li class="skills-list__item">Figma</li>
+                                <li class="skills-list__item">Adaptive design</li>
+                                <li class="skills-list__item">Git</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills_container">
+                    <div class="skills__card">
+                        <div class="skills__card-front soft-skill">
+                            <h2 class="skills__card_title">Personal qualities
+                            </h2>
+                        </div>
+                        <div class="skills__card-back">
+                            <ul class="skills-list">
+                                <li class="skills-list__item">Work Ethic</li>
+                                <li class="skills-list__item">Willingness to learn</li>
+                                <li class="skills-list__item">Critical thinking</li>
+                                <li class="skills-list__item">Problem-solving</li>
+                                <li class="skills-list__item">Empathy</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills__download-button"><a href="Katerina Shchablovskaya CV.pdf" download>Download CV</a>
+            </div>
+        </div>
+    </section>
+    <section class="contacts" id="Contacts">
+        <div class="wrapper contacts__wrapper">
+            <p class="contacts__title">Resume</p>
+            <h2 class="contacts__title-big">Contacts</h2>
+            <ul class="contacts-list">
+                <li class="contacts-list__item">
+                    <h3 class="__item_title">Phone</h3>
+                    <a class="__item_text" href="tel:+375297029327">+375297029327</a>
+                    <a class="ico ico_phone contacts-ico" href="tel:+375297029327"></a>
+                </li>
+                <li class="contacts-list__item">
+                    <h3 class="__item_title">Email</h3>
+                    <a class="__item_text" href="mailto:shablovskaykate@mail.ru">shablovskaykate@mail.ru</a>
+                    <a class="ico ico_email contacts-ico" href="mailto:shablovskaykate@mail.ru"></a>
+                </li>
+                <li class="contacts-list__item">
+                    <h3 class="__item_title">Linkedin</h3>
+                    <a class="__item_text"
+                        href="https://www.linkedin.com/in/katerina-shchablovskaya/">katerina-shchablovskaya</a>
+                    <a class="ico ico_link contacts-ico"
+                        href="https://www.linkedin.com/in/katerina-shchablovskaya/"></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="wrapper footer__wrapper">
+            <div class="footer__git-link"> <a class="ico ico_git" href="https://github.com/KatrinSha"></a></div>
+            <div class="footer__button"><span class="ico ico_arrow"></span></div>
+            <p class="footer__date">2023</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
